@@ -7,6 +7,11 @@
  */
 let result = [];
 
+let idx = 0;
+while(idx < 5) {
+    result[idx] = idx + 1;
+    idx++;
+}
 
 //export result
 module.exports = result;

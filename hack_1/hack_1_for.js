@@ -7,6 +7,10 @@
  */
 let result = [];
 
+let idx = 0;
+for(; idx <= 5; idx++) {
+    result[idx] = idx;
+}
 
 //export result
 module.exports = result;

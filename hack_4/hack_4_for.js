@@ -7,6 +7,12 @@
  */
 let result = [];
 
+let idx = 0;
+let number = 0;
+for(; idx <= 3; idx++) {
+    number++;
+    number % 2 != 0 ? result[idx] = number : idx--;
+}
 
 //export result
 module.exports = result;

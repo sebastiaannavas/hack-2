@@ -9,6 +9,12 @@
 let str = "fooziman";
 let result = [];
 
+let idx = 0;
+let strLen = str.length;
+while(idx < strLen){
+    result[idx] = str[idx];
+    idx++;
+}
 
 //export result
 module.exports = result;

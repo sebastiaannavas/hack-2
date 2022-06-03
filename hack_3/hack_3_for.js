@@ -7,6 +7,11 @@
  */
 let result = [];
 
+let idx = 0;
+let number = 5;
+for(; idx < 5; idx++) {
+    result[idx] = number--;
+}
 
 //export result
 module.exports = result;

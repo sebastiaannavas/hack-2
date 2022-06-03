@@ -7,6 +7,12 @@
  */
 let result = [];
 
+let idx = 0;
+let number = 5;
+while(idx < 5) {
+    result[idx] = number--;
+    idx++;
+}
 
 //export result
 module.exports = result;

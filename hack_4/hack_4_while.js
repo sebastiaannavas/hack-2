@@ -7,6 +7,13 @@
  */
 let result = [];
 
+let idx = 0;
+let number = 0;
+while(idx <= 3) {
+    number++;
+    number % 2 != 0 ? result[idx] = number : idx --;
+    idx++;
+}
 
 //export result
 module.exports = result;

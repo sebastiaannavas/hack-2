@@ -15,6 +15,7 @@
 let arr = ["foo","bar","baz","qux","echo","octo","cat","foobar","quux"];
 let result = [];
 
+result = arr.filter( (item, idx) => idx % 2 == 1 ? item : false );
 
 //export result
 module.exports = result;
